@@ -9,7 +9,7 @@ Here's all the docs that are been exported from the sources currently unavailabl
 - Pull the `main` branch.
 - Run the preview mode by running <br> `docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material`.
 - From now on you can simply overwrite the documents' content. <br> As you save your work, the changes will be revealed on `localhost:8000` in real-time.
-- If you're finished your work, create a branch and pull request related to it.
+- If you've finished your work, create a branch and pull request related to it.
 
 ## How does Knowledge Base update
 
