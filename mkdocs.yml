@@ -1,0 +1,56 @@
+site_name: Deep Robotics Knowledge Base
+
+nav:
+- Главная (overview от Юры): 'index.md'
+- Элективы по истории: 'electives.md'
+- Преподаватели: 'teachers.md'
+- Матанализ (1 семестр):
+  - Лекции:
+    - Лекция 1: 'math-lectures-sem-1/mathlecture1-1.md'
+    - Лекция 2: 'math-lectures-sem-1/mathlecture1-2.md'
+    - Лекция 3: 'math-lectures-sem-1/mathlecture1-3.md'
+    - Лекция 4: 'math-lectures-sem-1/mathlecture1-4.md'
+    - Лекция 5: 'math-lectures-sem-1/mathlecture1-5.md'
+    - Лекция 6: 'math-lectures-sem-1/mathlecture1-6.md'
+    - Лекция 7: 'math-lectures-sem-1/mathlecture1-7.md'
+    - Лекция 8: 'math-lectures-sem-1/mathlecture1-8.md'
+    - Лекция 9: 'math-lectures-sem-1/mathlecture1-9.md'
+    - Лекция 10: 'math-lectures-sem-1/mathlecture1-10.md'
+    - Лекция 11: 'math-lectures-sem-1/mathlecture1-11.md'
+    - Лекция 12: 'math-lectures-sem-1/mathlecture1-12.md'
+    - Лекция 13: 'math-lectures-sem-1/mathlecture1-13.md'
+    - Лекция 14: 'math-lectures-sem-1/mathlecture1-14.md'
+  - Разбор определений к экзамену (2022-2023): 'math-exam-sem-1.md'
+- Матанализ (2 семестр):
+  - Разбор определений к экзамену (2023-2024): 'math-exam-sem-2-2024.md'
+  - Разбор определений к экзамену (2022-2023): 'math-exam-sem-2.md'
+- Дискретная математика (семестр 1):
+  - Разбор билетов (2022-2023): 'discrete-exam-sem-1.md'
+- Дискретная математика (семестр 2):
+  - Разбор билетов (2022-2023): 'discrete-exam-sem-2.md'
+- Цифровые платформы (Logisim):
+  - Классический Logisim станет гораздо мощнее — он получит функционал… (Введение в Logisim): 'logisim-introduction.md'
+  - Я проснулся и открыл Logisim (Описание библиотек): 'i-woke-up-and-opened-logisim.md'
+  - Гайд по подключению процессора (для проекта): 'processor-implementation.md'
+  - Гайд по программированию на "ассемблере": 'digital-platforms-programming.md'
+- Императивное программирование:
+  - Гайд по проектам: 'programming-project.md'
+
+theme:
+  name: material
+  locale: ru
+  include_sidebar: true
+
+docs_dir: docs
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tilde # strikethrough text support
+
+#  - toc:
+#      baselevel: 4
+
+extra_javascript:
+  - javascripts/mathjax.js # LaTeX markup support
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # LaTeX markup support
