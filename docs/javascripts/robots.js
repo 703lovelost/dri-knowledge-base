@@ -1,0 +1,1 @@
+$('head').append('<meta name="robots" content="none" />');
