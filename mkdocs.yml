@@ -40,9 +40,11 @@ nav:
   - Инж. графика:
     - КОМПАС-3D на Linux. Невозможно?: 'grade-2/kompas-on-linux.md'
   - Методы алгебры и анализа:
-    - Контрольные работы (Мальковича): 'grade-2/algebraic-methods-tests.md'
+    - Контрольные работы (Мальковича, 2024): 'grade-2/algebraic-methods-tests.md'
   # - Теория вероятности и мат. статистика:
   #   - Обучающие материалы и задания: 'math-stat-2024.md'
+- 3 курс:
+  - Введение в 6й семестр (2025): 'grade-3/sem-6-intro.md'
 
 exclude_docs: |
   math-stat-2024.md
